@@ -1,18 +1,14 @@
-let person: {
+const person: {
   name: string;
   age: number;
+  hobbies: string[];
+  role: [number, string];
 } = {
-  name: "John",
-  age: 34,
+  name: "Maximilian",
+  age: 30,
+  hobbies: ["Sports", "Cooking"],
+  role: [2, "author"],
 };
 
-function add(num1: number, num2: number, check: boolean) {
-  return check && num1 + num2;
-}
-
-const number1 = 54;
-const number2 = 32;
-const isTrue = true;
-
-person.name = "Ado";
-console.log(person);
+let favoriteActivities: string[];
+favoriteActivities = ["Sports"];
