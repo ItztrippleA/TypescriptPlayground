@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ItztrippleA/TypescriptPlayground/issues"
   },
-  "homepage": "https://github.com/ItztrippleA/TypescriptPlayground#readme"
+  "homepage": "https://github.com/ItztrippleA/TypescriptPlayground#readme",
+  "dependencies": {
+    "simple-git": "^2.46.0"
+  }
 }
